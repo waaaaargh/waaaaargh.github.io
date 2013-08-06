@@ -1,8 +1,13 @@
 ---
 layout: page
-title: ohai.
-tagline: what the heck were you expecting?
+title: Hi, I'm Johannes.
+tagline: I do stuff.
 ---
 
-Nothing to see here. Go away!
+![hail eris](/assets/asdf.png)
 
+Occasionally, I also blog.
+
+{% for post in site.posts %}
+* {{ post.date | date_to_string }} » [{{ post.title }}]({{ post.url }})
+{% endfor %} 
