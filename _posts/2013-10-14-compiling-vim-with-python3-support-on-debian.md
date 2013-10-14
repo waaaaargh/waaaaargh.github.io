@@ -2,8 +2,7 @@
 layout: post
 title: "Compiling Vim with Python3 support on Debian"
 description: "The way to +python3 on Debian"
-category: Linux
-tags: 'debian' 'linux' 'vim']
+category: gnu&linux
 ---
 
 Okay. So you want to write python3 code in vim and use some plugins that use
